@@ -1,0 +1,3 @@
+flex indec.l
+bison -d indec.y
+g++ lex.yy.c indec.tab.c -o indec

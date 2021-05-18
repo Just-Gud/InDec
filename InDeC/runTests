@@ -1,0 +1,8 @@
+echo "--- Kalbos struktūrų testas ---"
+./indec < ./TestCode/indec.i
+echo "-- Unikali savybė ---"
+./indec < ./TestCode/unikali_savyb.i
+echo "-- Fibonači, ciklas ---"
+./indec < ./TestCode/fib_loop.i
+echo "-- Fibonači, rekursija ---"
+./indec < ./TestCode/fib_recursive.i
